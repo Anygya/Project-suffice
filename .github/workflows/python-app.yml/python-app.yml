@@ -1,18 +1,15 @@
 # importing package 
 
 from better_profanity import profanity 
+ 
+# word to be censored 
 
+text = "Fuck the world!"
   
-# text to be censored 
+# start censoring 
 
-text = "What the shit are you doing?"
+censored = profanity.censor(text,'#') 
 
-  
-# do censoring 
-
-censored = profanity.censor(text,#) 
-
-  
 # view output 
 
 print(censored)
